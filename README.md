@@ -98,7 +98,7 @@ Notes:
 - We do NOT use `is_root` and `is_ordered` fields on hashing.
 - For set expressions (`{ ... }`) we add a `salt` to the hash calculation.
 
-#### Redis:
+#### Key-value index:
 
 ```
 IncomingSet:
